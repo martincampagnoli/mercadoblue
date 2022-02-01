@@ -1,41 +1,29 @@
-# Whip project
-
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+# Whip 2.0
 
 Whip allows to fast prototype a new project from scratch giving a lot of nice features out of the box and more that will be added in the future.
 
-## Instructions
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
-Just clone this repo, run `npm install` and `bower install` to get all the dependencies. And you are ready to go!
+## Development server
 
-*If some error is thrown regarding msbuild or vcbuild tools, try running this:* <br/>
-`npm install --global --production windows-build-tools`
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build & development
+## Code scaffolding
 
-Run `gulp` for building and `gulp serve` for preview.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Testing
+## Build
 
-Running `gulp test` will run the unit tests with karma.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Why this toolset?
-* [AngularJS](https://angularjs.org/) - It's a powerful and reliable JavaScript framework, specially for CRUD applications.
-* [Jasmine](https://jasmine.github.io/) - BDD Testing framework with everything out of the box to start testing.
-* [Karma](https://karma-runner.github.io) - A simple test runner that is stable and fast.
-* [SASS](http://sass-lang.com/) - It's the most mature, stable, and powerful professional grade CSS extension language.
-* [Bootstrap](http://getbootstrap.com/) - The most popular UI framework for developing responsive, mobile first projects on the web.
-* [Gulp](http://gulpjs.com/) - A toolkit to automate and enhance the development workflow.
-* [Bower](https://bower.io/) - For the component management.
-* [JSHint](http://jshint.com/) - To detect errors and potential problems in the JavaScript code.
-* [Yeoman](http://yeoman.io/) - As an scaffolding tool puts all together prescribing best practices and tools to help stay productive.
+## Running unit tests
 
-And more features are included like:
-* LiveReload.
-* Building for production in dist folder and assets supporting (Run `gulp build`).
-* CSS and JS minification.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Why should I use Whip instead of Yeoman directly?
+## Running end-to-end tests
 
-Whip comes with a handful of improvements and bug fixing that will do the whole process of scaffolding an app as simple as possible.<br />Of course if you are looking for something more customizable then you should try the Yeoman generators instead.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
