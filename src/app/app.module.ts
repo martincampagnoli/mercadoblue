@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireModule } from '@angular/fire/compat';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //UPDATE firebase config HERE
 const firebaseConfig = {
@@ -27,6 +28,7 @@ const firebaseConfig = {
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
+    BrowserAnimationsModule,
 
   ],
   providers: [],
