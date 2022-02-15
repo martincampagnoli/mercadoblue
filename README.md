@@ -2,6 +2,11 @@
 
 Whip allows to fast prototype a new project from scratch giving a lot of nice features out of the box and more that will be added in the future.
 
+- **Heroku** - Automatic build and deploy.
+- **Firebase** - Usage with angular/fire package.
+- **Angular Material** - Rapid styling and prototyping with this set of components.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
