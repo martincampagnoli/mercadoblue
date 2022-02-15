@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material-module';
 
 //UPDATE firebase config HERE
 const firebaseConfig = {
@@ -29,7 +30,7 @@ const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
-
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
